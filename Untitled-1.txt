@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhaseShift - Technical Event</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3c7d97; /* Light blue background */
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #032343; /* Dark blue background */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            height: 80px;
+            margin: 0 15px;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #032343;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #03213f;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Content Section Styles */
+        section {
+            margin-bottom: 30px;
+        }
+
+        .event, .game {
+            text-align: left;
+            background-color: #f0f8ff;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .event h3, .game h3 {
+            color: #03213f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://i.pinimg.com/originals/c8/8a/71/c88a71ba963bace6b5678d6dad6a991a.png" alt="BMSCE Logo" class="logo">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.X2DjarDKpxEor2t1cHxNdwHaHa&pid=Api&P=0&h=180" alt="PhaseShift Logo" class="logo">
+        </div>
+        <h1>PhaseShift - Technical Event</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="events.html">Events</a>
+    </nav>
+    <main>
+        <section>
+            <h2>About PhaseShift</h2>
+            <p>
+                PhaseShift is the annual technical symposium organized by BMS College of Engineering (BMSCE). 
+                It is a confluence of students, professionals, and enthusiasts from various engineering disciplines 
+                who come together to showcase their technical prowess, engage in innovative competitions, and attend 
+                insightful workshops and seminars. The event aims to foster a spirit of innovation and creativity, 
+                providing a platform for participants to learn, network, and collaborate on cutting-edge technological 
+                advancements.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BMS College of Engineering. All rights reserved.</p>
+    </footer>
+</body>
+</html>
